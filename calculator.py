@@ -34,4 +34,12 @@ def run_tests():
 
 # Edit this code
 def compute(num1, operator, num2):
+    if operator == 'x':
+        print(num1*num2)
+
+    elif operator == '+':
+        print(num1+num2)
+
+    else:
+        print(num1-num2)
 
